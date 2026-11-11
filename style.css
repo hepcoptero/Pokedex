@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    text-align: center;
+    background: linear-gradient(to buttom,rgb(84, 6, 241), rgb(164, 36, 215));
+    min-height: 100vh;
+}
