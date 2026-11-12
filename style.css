@@ -9,3 +9,32 @@ body {
     background: linear-gradient(to buttom,rgb(84, 6, 241), rgb(164, 36, 215));
     min-height: 100vh;
 }
+main {
+    display: inline-block;
+    position: relative;
+    margin-top: 2%;
+    padding: 15px;
+}
+.pokedex {
+    width: 100%;
+    max-width: 600px;
+}
+.pokemon_img {
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+.pokemo_data {
+    position: absolute;
+    font-weight: 600px;
+    color: blueviolet;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 24px);
+}
+.pokemo_name {
+    color: rgb(232, 12, 12);
+    text-transform: capitalize;
+}
